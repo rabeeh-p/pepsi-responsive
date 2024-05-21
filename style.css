@@ -1,0 +1,282 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+
+
+.show:hover .custom-link{
+    background-color: blue;
+    color: #fff;
+    border: none;
+}
+
+.custom-link1{
+    color: white;
+}
+.custom-link1:hover{
+    color: blue;
+}
+
+
+.video {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.bg-none:hover .img1 {
+    box-shadow: 0 0 40px 15px rgba(19, 31, 159, 0.5);
+    border-radius: 30px;
+    cursor: pointer;
+}
+
+
+.logo{
+    width: 4rem;
+   
+}
+
+.mt{
+    margin-top: -6px;
+}
+
+.custom-bg-color {
+    transition: background-color 0.3s ease; /* Add transition for smooth color change */
+    color: #fff;
+}
+
+.custom-bg-color:hover {
+    background-color: #fff; 
+    color: blue;
+}
+
+.custom-bg-color:hover .custom-link1{
+    color: blue;
+}
+
+.mt-first{
+    margin-top: 70px;
+}
+
+.container-img{
+    /* margin-top: -6px; */
+    /* height: auto; */
+    
+    background-image: url(https://www.pepsi.com/en-us/refresh082123/images/wild-cherry/wc-tvc-bg-tablet-vert@2x.png);
+    background-size: cover; /* or contain */
+    background-position: bottom; /* or other values */
+    background-repeat: no-repeat;
+}
+
+
+.bg-none{
+    background-color: transparent;
+    border: none;
+}
+
+.left{
+    margin-left: 20px;
+    color: #fff;
+}
+
+
+.photo-card{
+    overflow: hidden;
+}
+
+.photo-card img{
+    transition: transform 0.3s ease;
+}
+.photo-card img:hover{
+    transform: scale(1.1) rotate(5deg);
+    cursor: pointer;
+    
+
+}
+
+@media (max-width: 767px) {
+    /* CSS rules for small screens */
+
+    .mt-first{
+        margin-top: 52px;
+    }
+
+    .logo{
+        width: 2rem;
+       
+    }
+    .row{
+        margin-right: 0;
+    }
+
+    .ml-nav{
+        margin-left: 300px;
+    }
+    .show{
+        padding: 1em 3em;
+        font-size:0.4rem;
+        margin-top: 10px;
+        margin-left: -5px;
+        border: none;
+        font-family: "Bebas Neue", sans-serif;
+    }
+    .logo{
+        height: 10wm;
+
+    }
+    .card-btn{
+        font-size: 0.5rem;
+        background-color: #fff;
+        /* display: inline; */
+        margin-top: -30px;
+        /* width: auto; */
+        color: black;
+        padding: -6px -20px;
+        /* text-align: center; */
+        /* justify-content: center; */
+        /* align-items: center; */
+    }
+    .bg-none:hover .card-btn{
+        background-color: blue;
+        color: #fff;
+    }
+
+    .row-class{
+        /* background-color: red; */
+        /* display: flex; */
+        /* justify-content: center; */
+        /* align-items: center; */
+        /* width: 200px; */
+        margin: 0 auto;
+    }
+
+    .card-section{
+        margin-top: -6px;
+        background-color: black;
+        /* height: 20vh; */
+    }
+
+    .card-section h1{
+        /* text-align: center; */
+        font-family: "Bebas Neue", sans-serif;
+        font-weight: 200;
+        padding-top: 30px;        
+    }
+
+    .icon-footer{
+        width: 70px;
+        height: auto;
+    }
+    .custom-bg-color:hover {
+        background-color: #fff; 
+        color: blue;
+    }
+    
+    .custom-bg-color:hover .custom-link1{
+        color: blue;
+    }
+  }
+
+  
+  /* Medium screens */
+  @media (min-width: 768px) and (max-width: 991px) {
+    /* CSS rules for medium screens */
+
+    .row{
+        margin-right: 0;
+    }
+
+    .show{
+        padding: 1rem;
+        border: none;
+        margin-top: 20px;
+        margin-left: -5px;
+
+    }
+    .card-section{
+        margin-top: -6px;
+        background-color: black;
+        /* height: 20vh; */
+    }
+    .icon-footer{
+        width: 90px;
+        height: auto;
+    }
+  }
+  
+  /* Large screens */
+  @media (min-width: 992px) {
+    /* CSS rules for large screens */
+
+    .row{
+        margin-right: 0;
+    }
+
+
+
+    .show{
+        margin-top: 60px;
+        margin-left: -10px;
+        padding: 1.5rem 2rem;
+        font-size: 2em;
+        font-weight: bolder;
+        border: none;
+
+    }
+
+    .show:hover{
+        background-color: blue;
+        color: #fff;
+        border: none;
+    }
+    .desktop{
+        width: 100%;
+    }
+
+    .card-btn{
+        background-color: #fff;
+        color: black;
+    }
+
+    .bg-none:hover .card-btn{
+        background-color: blue;
+        color: #fff;
+    }
+
+    .card-section{
+        margin-top: -6px;
+        background-color: black;
+        /* height: 100vh; */
+    }
+    .card-section h1{
+        text-align: center;
+        font-family: "Bebas Neue", sans-serif;
+        font-weight: 800;
+        padding-top: 30px;        
+    }
+
+    
+
+    
+  }
+
+
+
+
+  @media (min-width: 2000px)  and (max-width: 4000px) {
+    .banner-img{
+        width: 150%;
+        /* background-color: red; */
+
+    }
+    .title{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+
+  }
